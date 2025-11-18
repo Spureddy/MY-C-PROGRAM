@@ -1,0 +1,17 @@
+//Ladder if else
+#include<stdio.h>
+int main(){
+int marks;
+   printf("enter over all marks\n");
+   scanf("%d",&marks);
+   if (marks>=90){
+       printf("grade A\n");
+   }else if(marks>=85){
+       printf("grade B\n");
+   }else if(marks>=60){
+       printf("grade C\n");
+   }else {
+       printf("fail\n");
+   }
+   return 0;
+}
