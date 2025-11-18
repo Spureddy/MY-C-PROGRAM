@@ -1,0 +1,21 @@
+//nested if else statement
+#include<stdio.h>
+int main()
+{  
+  int marks;
+  printf("enter your marks\n");
+  scanf("%d",&marks);
+  if(marks>=90){
+      printf("excillent\n");
+  } else if(marks>=75){
+      printf("good\n");
+  } else if(marks>=60){
+      printf("average\n");
+  }
+    else if(marks==50){
+        printf("just pass\n");
+    } else{ 
+      printf("fail\n");
+    }
+      return 0;
+    }
