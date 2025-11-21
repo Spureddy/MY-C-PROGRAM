@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+    int inputID;
+    int pan = 12345;
+    int aadhaar = 67890;
+    int aapar = 11111;
+    int drivingLicence = 22222;
+    int passport = 33333;
+    printf("Enter your Unique Identification Number: ");
+    scanf("%d", &inputID);
+    if (inputID == pan) {
+        printf("KYC Verified: PAN Record Found\n");
+    } else if (inputID == aadhaar) {
+        printf("KYC Verified: Aadhaar Record Found\n");
+    } else if (inputID == aapar) {
+        printf("KYC Verified: Aapar ID Record Found\n");
+    }else if (inputID == drivingLicence) {
+        printf("KYC Verified: Driving Licence Record Found\n"); }
+    else if (inputID == passport) {
+        printf("KYC Verified: Passport Record Found\n");
+    }
+    else {
+        printf("KYC Not Verified: No Record Found\n");
+    }
+}
