@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float a, b, c, discriminant, root1, root2, realPart, imagPart;
+    printf("Enter coefficients a, b, and c: ");
+    scanf("%f %f %f", &a, &b, &c);
+    // Discriminant: b^2 - 4ac
+    discriminant = (b * b) - (4 * a * c);
+    if (discriminant > 0) {
+        printf(""
+    }        
