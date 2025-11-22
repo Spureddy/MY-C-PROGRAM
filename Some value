@@ -1,0 +1,13 @@
+// some values auto-imcrement
+#include<stdio.h>
+enum name{
+    spurthi=5
+    vaishnavi,
+    priya=10,
+    shahanaz 
+};
+int main(){
+    enum name n=frnd;
+    frnd=vaishnavi;
+    printf("%d\n",frnd);
+}
