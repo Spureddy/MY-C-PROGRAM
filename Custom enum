@@ -1,0 +1,11 @@
+// costjm enum
+#include<stdio.h>
+enum status{
+    start=1,
+    stop=5,
+    pause=10
+};
+int main(){
+    enum status s=stop;
+    printf("%d\n",s);
+}
