@@ -1,0 +1,21 @@
+#include <stdio.h>
+float calculateAverage(int m1, int m2, int m3) {
+    return (m1 + m2 + m3) / 3.0;
+}
+int checkPass(int m1, int m2, int m3) {
+    if (m1 >= 40 && m2 >= 40 && m3 >= 40)
+        return 1;  // Passed
+    else
+        return 0;  // Failed
+}
+int main() {
+    int sub1, sub2, sub3;
+    float avg;
+    printf("Enter marks of three subjects: ");
+    scanf("%d %d %d", &sub1, &sub2, &sub3);
+    avg = calculateAverage(sub1, sub2, sub3);
+    printf("Average = %.2f\n", avg);
+    if (checkPass(sub1, sub2, sub3))
+        printf("Result: PASS\n");
+    else
+        printf("Result: FAIL\n");
