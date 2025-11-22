@@ -1,0 +1,11 @@
+#include<stdio.h>
+enum name{
+    spurthi=10,
+    vaishnavi=20,
+    shahanaz=30
+};
+int main(){
+    enum name frnd;
+    frnd=vaishnavi;
+    printf("%d\n",frnd);
+}
