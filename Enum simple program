@@ -1,0 +1,16 @@
+//enum simple program 
+#include<stdio.h>
+enum week {
+    sun,
+    mon,
+    tue,
+    wed,
+    thr,
+    fri,
+    sat
+};
+int main(){
+    enum weektoday;
+    today = monday;
+    printf("%d\n",today);
+}
