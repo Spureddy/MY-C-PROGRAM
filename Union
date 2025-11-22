@@ -1,0 +1,14 @@
+//union program
+#include<stdio.h>
+union pika{
+    int a;
+    float b;
+};
+int main(){
+    union pika p;
+    p.a=20;
+    printf("%d\n",p.a);
+    p.b=20.6;
+    printf("%d\n",p.b);
+    printf("%d\n",p.a);
+}
